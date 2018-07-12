@@ -22,3 +22,7 @@ h1 {
 	min-height: 90vh;
 	background-color: #FAF8F6;
 }
+
+.img-fluid {
+	max-width: 100%;
+}
