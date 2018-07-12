@@ -19,6 +19,7 @@ body {
 
 h1 {
 	font-family: var(--display-font);
+/*	font-weight: bold;*/
 }
 
 .navbar-brand {
@@ -43,6 +44,7 @@ h1 {
 	color:  white;
 	text-align: center;
 	padding: 3em;
+	font-weight: bold;
 }
 
 .callout-link {
