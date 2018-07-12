@@ -1,0 +1,24 @@
+html, body {
+    height: 100%;
+}
+
+body {
+	font-family: 'Source+Sans+Pro', sans-serif;
+	background-color: #FAF8F6;
+}
+
+h1 {
+	font-family: 'Playfair+Display', serif;
+}
+
+.navbar-brand {
+	font-family: 'Playfair+Display', serif;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.jumbotron {
+	min-height: 90%;
+	min-height: 90vh;
+	background-color: #FAF8F6;
+}
