@@ -1,10 +1,18 @@
+:root {
+    --bg-color: #FAF8F6;
+	--baobab-blue: #91C7F5;
+	--baobab-pink: #F59191;
+	--baobab-green: #DEF591;
+}
+
 html, body {
     height: 100%;
+
 }
 
 body {
 	font-family: 'Source+Sans+Pro', sans-serif;
-	background-color: #FAF8F6;
+	background-color: var(--bg-color);
 }
 
 h1 {
@@ -20,9 +28,41 @@ h1 {
 .jumbotron {
 	min-height: 90%;
 	min-height: 90vh;
-	background-color: #FAF8F6;
+	background-color: var(--bg-color);
+}
+
+.lg-container {
+	min-height: 40%;
+	min-height: 40vh;
+}
+
+.callout {
+	background-color: var(--baobab-pink);
+	color:  white;
+	text-align: center;
+	padding: 3em;
+}
+
+.callout-link {
+	color: white;
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+
+.callout-link:hover {
+	color: white;
 }
 
 .img-fluid {
 	max-width: 100%;
+}
+
+.btn-primary {
+	background-color: var(--baobab-blue);
+	border-color: var(--baobab-blue);
+}
+
+.ul-light {
+	font-weight: 200;
 }
